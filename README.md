@@ -15,3 +15,30 @@ Given the Path Instructions above, programmatically parse the instructions and d
 - Provide any needed instructions to run program.
 - Do not round to the nearest step.
 - After program executes the answer should be returned.
+
+## Developer Notes
+
+### Instructions to Run Program using the JAR file
+1. Clone the repository
+2. Navigate to the root directory
+3. Run the following command: `java -jar adventurer.jar`
+
+### Instructions to Build and Run Program using the source code
+1. Clone the repository
+2. Navigate to the directory adventurer
+3. Run the following command: `javac -d bin src/main/Main.java src/main/PathHelper.java`
+4. Navigate to the directory adventurer/bin
+5. Run the following command: `java Main`
+
+### Tests
+1. Tests are located in the directory `adventurer/src/test`
+
+### Assumptions
+1. The adventurer starts at the origin (0, 0) facing North.
+2. Moving backward flips the direction of the adventurer.
+3. The distance can be an integer or a decimal number.
+4. If an invalid direction or no distance is provided, it is skipped, assuming a distance of 0.
+5. The directions are capital letters.
+
+
+
