@@ -18,6 +18,8 @@ Given the Path Instructions above, programmatically parse the instructions and d
 
 ## Developer Notes
 
+Prerequisite: Have Java 8+ installed on the System
+
 ### Instructions to Run Program using the JAR file
 1. Clone the repository
 2. Navigate to the root directory
@@ -35,7 +37,7 @@ Given the Path Instructions above, programmatically parse the instructions and d
 
 ### Assumptions
 1. The adventurer starts at the origin (0, 0) facing North.
-2. Moving backward flips the direction of the adventurer.
+2. The adventurer turns to face the direction in which they will be moving.
 3. The distance can be an integer or a decimal number.
 4. If an invalid direction or no distance is provided, it is skipped, assuming a distance of 0.
 5. The directions are capital letters.
